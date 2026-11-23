@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("model.pkl")
+model = joblib.load("model (1).pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 st.title("SMS Spam Detector")
